@@ -46,6 +46,7 @@ public class SinglePlayerGameTest {
 		game.lancer(3);
 		game.lancer(4);
 		rollMany(16, 0);
+                game.gettableau();
 		assertEquals(24, game.score());
 	}
 
